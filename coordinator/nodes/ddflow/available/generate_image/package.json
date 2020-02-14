@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-generate_image",
+  "version": "1.0.0",
+  "description": "This node generates generate_image",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"generate_image":"generate_image.js"
+  	}
+  }
+}

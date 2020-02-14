@@ -1,0 +1,17 @@
+{
+  "name": "rest-mlx",
+  "description": "MLX Coordinator",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "author": "Joseph Noor",
+  "dependencies": {
+    "body-parser": "~1.9.0",
+    "express": "~4.9.5",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jnoor/mlx.git"
+  }
+}

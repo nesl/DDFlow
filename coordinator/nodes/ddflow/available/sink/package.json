@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-sink",
+  "version": "1.0.0",
+  "description": "This node generates sink",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"sink":"sink.js"
+  	}
+  }
+}

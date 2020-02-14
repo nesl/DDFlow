@@ -1,0 +1,13 @@
+{
+  "name": "node-red-heliot-configuration",
+  "version": "1.0.0",
+  "description": "This node indicates the configuration details of the Heliot testbed",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"heliot":"heliot.js"
+  	}
+  }
+}

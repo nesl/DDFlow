@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-pulse",
+  "version": "1.0.0",
+  "description": "This node generates pulse",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"pulse":"pulse.js"
+  	}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-play_sound",
+  "version": "1.0.0",
+  "description": "This node generates play_sound",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"play_sound":"play_sound.js"
+  	}
+  }
+}

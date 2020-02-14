@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-filter_computer",
+  "version": "1.0.0",
+  "description": "This node generates filter_computer",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"filter_computer":"filter_computer.js"
+  	}
+  }
+}

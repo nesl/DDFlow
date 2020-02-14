@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-${SERVICE}",
+  "version": "1.0.0",
+  "description": "This node generates ${SERVICE}",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"${SERVICE}":"${SERVICE}.js"
+  	}
+  }
+}

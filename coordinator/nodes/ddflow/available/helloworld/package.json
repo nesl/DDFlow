@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-helloworld",
+  "version": "1.0.0",
+  "description": "This node generates helloworld",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"helloworld":"helloworld.js"
+  	}
+  }
+}

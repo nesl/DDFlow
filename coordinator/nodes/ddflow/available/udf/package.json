@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-udf",
+  "version": "1.0.0",
+  "description": "This node generates udf",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"udf":"udf.js"
+  	}
+  }
+}

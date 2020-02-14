@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    RED.nodes.registerType('heliot-config',{
+        category: 'distributed',
+        color: '#FFC04C',
+        defaults: {
+            name: {value:"Heliot"},
+            weather: {value:"Sunny"}
+        },
+        inputs:0,
+        outputs:0,
+        icon: "cog.png",
+        label: function() {
+            return this.name||"heliot-config";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="heliot-config">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-weather"><i class="fa fa-sun-o"></i> Weather</label>
+        <select id="node-input-weather" name="Weather">
+          <option value="Sunny">Sunny</option>
+          <option value="Dust Storm">Dust Storm</option>
+        </select>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="heliot-config">
+    <p>A node that holds configuration settings for Heliot testbed integration.</p>
+</script>

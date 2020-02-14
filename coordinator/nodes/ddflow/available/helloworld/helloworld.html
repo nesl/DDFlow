@@ -1,0 +1,56 @@
+<script type="text/javascript">
+    RED.nodes.registerType('helloworld',{
+        category: 'distributed',
+        color: '#FEDCBA',
+        defaults: {
+            name: {value:""},
+            prefix: {value:""},
+            suffix: {value:""},
+            topic: {value:""},
+            region: {value:""},
+            devices: {value:""},
+            wiretype: {value:"stream"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "subflow.png",
+        label: function() {
+            return this.name||"helloworld";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="helloworld">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-prefix"><i class="fa fa-cog"></i> prefix</label>
+        <input type="text" id="node-input-prefix" placeholder="prefix">
+    </div>
+    <div class="form-row">
+        <label for="node-input-suffix"><i class="fa fa-cog"></i> suffix</label>
+        <input type="text" id="node-input-suffix" placeholder="suffix">
+    </div>
+    <div class="form-row">
+        <label for="node-input-region"><i class="fa fa-globe"></i> Region</label>
+        <input type="text" id="node-input-region" placeholder="(Optional) Region of Interest">
+    </div>
+    <div class="form-row">
+        <label for="node-input-devices"><i class="fa fa-server"></i> Devices</label>
+        <input type="text" id="node-input-devices" placeholder="(Optional) Device List">
+    </div>
+    <div class="form-row">
+        <label for="node-input-wiretype"><i class="fa fa-long-arrow-right"></i> Wire Type</label>
+        <select id="node-input-wiretype" name="Wire Type">
+          <option value="stream">Stream</option>
+          <option value="broadcast">Broadcast</option>
+          <option value="single">Single</option>
+        </select>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="helloworld">
+    <p>A node that generates a helloworld.</p>
+</script>

@@ -1,0 +1,5 @@
+Sending data to:192.168.1.175: at time:1579216842.346381
+error on ip:192.168.1.175: at time:1579216917.428443
+Exception: [Errno 60] Operation timed out
+Retry: 1
+

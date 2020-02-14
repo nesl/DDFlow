@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-classify_image",
+  "version": "1.0.0",
+  "description": "This node generates classify_image",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"classify_image":"classify_image.js"
+  	}
+  }
+}

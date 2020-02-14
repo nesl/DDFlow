@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-filter_custom",
+  "version": "1.0.0",
+  "description": "This node generates filter_custom",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"filter_custom":"filter_custom.js"
+  	}
+  }
+}

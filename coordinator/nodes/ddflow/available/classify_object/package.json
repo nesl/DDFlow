@@ -1,0 +1,13 @@
+{
+  "name": "node-red-distributed-classify_object",
+  "version": "1.0.0",
+  "description": "This node generates classify_object",
+  "dependencies": {
+  },
+  "author": "Joseph Noor",
+  "node-red":{
+  	"nodes":{
+  		"classify_object":"classify_object.js"
+  	}
+  }
+}
