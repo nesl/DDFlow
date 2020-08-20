@@ -80,7 +80,7 @@
     "xml2js": "0.4.19"
   },
   "optionalDependencies": {
-    "bcrypt": "~2.0.0"
+    "bcrypt": "~5.0.0"
   },
   "devDependencies": {
     "chromedriver": "^2.41.0",
