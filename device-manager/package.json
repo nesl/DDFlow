@@ -6,8 +6,8 @@
   "main": "server.js",
   "author": "Joseph Noor",
   "dependencies": {
-    "body-parser": "~1.9.0",
-    "express": "~4.9.5",
+    "body-parser": "~1.20.1",
+    "express": "~4.18.2",
     "request": "^2.88.0"
   },
   "repository": {
